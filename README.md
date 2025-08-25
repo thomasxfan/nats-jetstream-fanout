@@ -31,20 +31,20 @@ Other utils.\
 
 
 **Java apps**
-// start webserver 1, with 100 workers each work call 1 consumer
+// start webserver 1, with 100 workers each work call 1 consumer\
 5) ../scripts/runApp1.sh
 
-// start webserver 2, with 100 workers each work call 1 consumer
+// start webserver 2, with 100 workers each work call 1 consumer\
 6) ../scripts/runApp2.sh
 
-// start webserver 3, with 100 workers each work call 1 consumer
+// start webserver 3, with 100 workers each work call 1 consumer\
 7) ../scripts/runApp3.sh
 
-// start publisher, pub 5000 tps * 600 (seconds) messages in total.
-// Adjust the thread count and batch size as needed to increase the tps
+// start publisher, pub 5000 tps * 600 (seconds) messages in total.\
+// Adjust the thread count and batch size as needed to increase the tps\
 8) java -cp ".:../java/libs/*" pub_aws user.messages 5000 600 10 50
 
-// Stop all the webservers
+// Stop all the webservers\
 9) ../scripts/stopApps.sh
 
 
