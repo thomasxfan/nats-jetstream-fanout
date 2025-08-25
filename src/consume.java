@@ -30,7 +30,7 @@ public class consume {
             return;
         }
 
-        String servers = "nats://172.31.21.241:4222,nats://172.31.16.244:4222,nats://172.31.28.46:4222";
+        String servers = "nats://172.31.xx.xxx:4222,nats://172.31.xx.xxx:4222,nats://172.31.xx.xxx:4222";
         String[] serverArray = servers.split(",");
         String username = "user";
         String password = "user";
