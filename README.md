@@ -15,10 +15,10 @@ Provide a minimal reference where JetStream stores events and partitioned gatewa
 Include config/shared.cfg to nats configuration file. Use subject based partitioning to shard the data\
 Start nats server
    
-**create 100 streams**\
+**Create 100 streams**\
 ../scripts/createStreamAll.sh 100 
 
-**create all consumers**\
+**Create all consumers**\
 // create 100 consumers for each of 3 webservers, total 300 consumers\
 ../scripts/createConAll.sh
 
