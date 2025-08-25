@@ -22,7 +22,12 @@ Provide a minimal reference where JetStream stores events and partitioned gatewa
 4) ../scripts/createConAll.sh
 
 Other utils.
-../scripts/purgeStream.sh 100   //purge data across the 100 streams
+// purge data across the 100 streams
+../scripts/purgeStream.sh 100
+// Delete all the consumers
+../scripts/deleteConAll.sh
+// Delete all the streams
+../scripts/deletStr.sh 100
 
 
 **Java apps**
