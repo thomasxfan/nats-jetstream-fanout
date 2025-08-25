@@ -32,13 +32,13 @@ Start nats server
 
 
 **Java apps**\
-// start webserver 1, with 100 workers each work call 1 consumer\
+// start webserver 1, with 100 workers each worker thread calls 1 consumer\
 ../scripts/runApp1.sh
 
-// start webserver 2, with 100 workers each work call 1 consumer\
+// start webserver 2, with 100 workers each worker thread calls 1 consumer\
 ../scripts/runApp2.sh
 
-// start webserver 3, with 100 workers each work call 1 consumer\
+// start webserver 3, with 100 workers each worker calls 1 consumer\
 ../scripts/runApp3.sh
 
 // start publisher, pub 5000 tps * 600 (seconds) messages in total.\
