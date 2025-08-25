@@ -11,8 +11,8 @@ Provide a minimal reference where JetStream stores events and partitioned gatewa
 
 # Quick Start
 
-**Setup nats**
-Include config/shared.cfg to nats configuration file. Use subject based partitioning to shard the data
+**Setup nats**\
+Include config/shared.cfg to nats configuration file. Use subject based partitioning to shard the data\
 Start nats server
    
 **create 100 streams**\
