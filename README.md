@@ -30,7 +30,7 @@ Other utils.\
 ../scripts/deletStr.sh 100
 
 
-**Java apps**
+**Java apps**\
 // start webserver 1, with 100 workers each work call 1 consumer\
 5) ../scripts/runApp1.sh
 
