@@ -1,0 +1,5 @@
+compile publisher
+Change nats connection info in the java code
+javac -cp "../java/libs/*" pub_aws.java
+
+javac -cp "../java/libs/*" consumer.java
