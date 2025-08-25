@@ -7,6 +7,7 @@ Example showing high fan-out with NATS JetStream using subject-based partitionin
 Provide a minimal reference where JetStream stores events and partitioned gateway instances fan out to clients via WebSocket.
 
 **Architecture Diagram**
+![Architecture Diagram](architecture/architecture.png)
 
 
 # Quick Start
